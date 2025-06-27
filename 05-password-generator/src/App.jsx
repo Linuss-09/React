@@ -59,7 +59,7 @@ function App() {
     <div className="border bg-linear-to-br from-gray-950 to-cyan-950  w-full h-screen flex justify-center items-center ">
 
       {/* main card */}
-      <div className="w-full max-w-md mx-auto px-4 py-2 my-8 shadow-gray-950 shadow-md bg-black/20 pb-8 backdrop-blur-lg rounded-lg font-cascadia">
+      <div className="w-full max-w-md mx-auto px-4  my-8 shadow-gray-950 shadow-md bg-black/20 pb-8 backdrop-blur-lg rounded-lg font-cascadia py-8 ">
         <h1 className=" text-center text-2xl text-white my-3">Password Generator</h1>
 
         {/* div for the input and the btn */}
