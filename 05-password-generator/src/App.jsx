@@ -38,7 +38,7 @@ function App() {
 
   }, [length, numberAllowed, characterAllowed, setPassword])
   // yahan par sePassword kyun pass kiya jano zara... zara mehkata hai aachkl mera tn badan woh pyasi ha....
-  
+
 
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.current?.select()
@@ -55,13 +55,17 @@ function App() {
 
   return (
     <>
-      <div className="w-full max-w-md mx-auto px-4 py-2 my-8 shadow-lg bg-gray-800 rounded-lg ">
+    {/* pseudo-body div */}
+    <div className="border bg-linear-to-br from-gray-950 to-cyan-950  w-full h-screen flex justify-center items-center ">
+
+      {/* main card */}
+      <div className="w-full max-w-md mx-auto px-4 py-2 my-8 shadow-gray-950 shadow-md bg-black/20 pb-8 backdrop-blur-lg rounded-lg font-cascadia">
         <h1 className=" text-center text-2xl text-white my-3">Password Generator</h1>
 
         {/* div for the input and the btn */}
-        <div className="border border-white flex justify-center items-center py-2 px-4 rounded-lg overflow-hidden mb-4 ">
+        <div className=" flex justify-center items-center py-2  rounded-lg overflow-hidden mb-4 gap-x-1">
           <input 
-          className='border text-white outline-none px-3 py-1 w-full '
+          className='border text-white outline-none px-3 py-1 w-full rounded-md '
           type="text" 
           value={password}
           placeholder='Password'
@@ -71,12 +75,12 @@ function App() {
           {/* Copy butotn */}
           <button 
           onClick = {copyPasswordToClipboard}
-          className="bg-blue-800 py-1.5 px-2 rounded-md ml-2 cursor-pointer hover:bg-blue-600 shrink-0 text-gray-200"
+          className="text-gray-950 bg-cyan-500/80  py-1.5 px-2 rounded-md ml-2 cursor-pointer hover:bg-cyan-400 shrink-0  font-cascadia"
           >Copy</button>
         </div>
 
         {/* div 2 for other parts */}
-        <div className="border flex items-center justify-between px-4 text-white py-2 text-sm rounded-lg
+        <div className="border flex items-center justify-between px-2 text-white py-2 text-sm rounded-lg 
         ">
 
 
@@ -87,7 +91,7 @@ function App() {
           min={8}
           max={50}
           value={length}
-          className='cursor-pointer'
+          className='cursor-pointer accent-cyan-600'
           onChange={(e) => setLength(e.target.value)}
           />
           <label >Length: {length} </label>
@@ -98,6 +102,7 @@ function App() {
           <div className="flex items-center gap-x-1.5">
             <input 
             type="checkbox" 
+            className='cursor-pointer'
             defaultChecked = {numberAllowed}
             id="numberInput"
             onChange={() => {
@@ -112,6 +117,7 @@ function App() {
           {/* for character */}
           <div className="flex items-center gap-x-1.5">
             <input 
+            className='cursor-pointer'
             type="checkbox" 
             defaultChecked = {characterAllowed}
             id="characterInput"
@@ -124,6 +130,10 @@ function App() {
 
         </div>
       </div>
+
+
+    </div>
+
     </>
   )
 }

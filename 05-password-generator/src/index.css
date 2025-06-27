@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+
+
+.font-cascadia {
+  font-family: 'Cascadia Mono', monospace;
+}
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
