@@ -18,7 +18,7 @@ function App() {
         ">
           <button 
           onClick={() => setColor('#b91c1c')}
-          className="px-2 py-1 rounded-md outline-none shadow-lg bg-red-700  "
+          className="px-2 py-1 rounded-md outline-none shadow-lg bg-red-700 "
           >Red</button>
           <button
           onClick = {() => setColor('#1d4ed8')}
