@@ -1,0 +1,25 @@
+/* In your main CSS file (usually src/index.css or src/App.css) */
+@import "tailwindcss";
+
+/* Import your Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:wght@300&display=swap');
+
+/* Define custom font families using Tailwind v4 syntax */
+@theme {
+  --font-family-ibm: "IBM Plex Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-cascadia: "Cascadia Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-lato: "Lato", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Optional: Create utility classes for easier use */
+.font-ibm {
+  font-family: var(--font-family-ibm);
+}
+
+.font-cascadia {
+  font-family: var(--font-family-cascadia);
+}
+
+.font-lato {
+  font-family: var(--font-family-lato);
+}
