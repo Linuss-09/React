@@ -1,9 +1,12 @@
 import { useContext, useState } from 'react'
-import React from 'react'
 import UserContext from '../context/UserContext'
 
 function Login() {
-    const {user, setUser} = useContext(UserContext)
+  // the major philosohy of usin this shit here is that we can directly get the values from the context into the componets...so now the components here have the acess of user and setUser here 
+
+
+    const {setUser} = useContext(UserContext)
+
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
 
