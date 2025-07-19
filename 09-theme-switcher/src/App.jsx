@@ -26,13 +26,17 @@ function App() {
 
   return (
     <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
+      {/* body  */}
       <div className="flex flex-wrap min-h-screen items-center">
+        main component
           <div className="w-full">
               <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
+                {/* imported theme btn  */}
                   <ThemeBtn />
                 </div>
 
               <div className="w-full max-w-sm mx-auto">
+                {/* impored card here */}
                   <Card />
               </div>
           </div>
