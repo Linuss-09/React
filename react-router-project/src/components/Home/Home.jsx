@@ -23,9 +23,9 @@ function Home() {
           <div 
           className="font-mono rounded-md w-1/2 py-2 px-16 flex flex-col justify-start space-y-10 text-amber-100 tracking-tight ">
           {/* h1 */}
-          <h1 className='text-7xl max-w-3xl mt-12 font-pt  '>SIP INTO 80 YEARS OF HERITAGE</h1>
+          <h1 className='text-7xl max-w-3xl mt-12 font-antiqua tracking-wide '>SIP INTO 80 YEARS OF HERITAGE</h1>
 
-          <p className="text-xl font-inter">Meet the timeless taste that aged like fine... well, wine.
+          <p className="text-2xl font-macondo">Meet the timeless taste that aged like fine... well, wine.
           We've been bottling tradition since before your grandpa grew his first mustache.
           Smooth, rich, unapologetically classic — no hype, just history in every pour.
           </p>
