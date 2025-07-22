@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 function Header() {
   return (
     <header className=" py-4 px-8 font-winky bg-emerald-900">
-      <nav className=" mx-auto px-8 py-4 bg-violet-100 border flex justify-between items-center shadow-md rounded-lg backdrop-blur-lg ">
+      <nav className=" mx-auto px-8 py-4 bg-violet-50 flex justify-between items-center shadow-md rounded-lg backdrop-blur-lg ">
         {/* div for logo */}
         <div className="font-antiqua font-extrabold text-3xl text-gray-800 tracking-wide">
           VINTER
