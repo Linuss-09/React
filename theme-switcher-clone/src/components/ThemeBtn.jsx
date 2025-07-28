@@ -2,7 +2,7 @@ import React from 'react'
 import useTheme from '../context/ThemeContext'
 
 export default function ThemeBtn() {
-    // use usetheme toget all the things themecontext here but u gotta stoe those things aswell so its alright 
+    // use usetheme toget all the things themecontext here but u gotta store those things aswell so its alright 
     const {themeMode, darkTheme, lightTheme} = useTheme()
 
     // eventHandler

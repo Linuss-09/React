@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "wine": "Château Margaux 2015",
+    "winery": "Château Margaux",
+    "image": "/wine-bottles/w-6.avif",
+    "type": "Red Wine",
+    "region": "Bordeaux, France",
+    "price": 899.99
+  },
+  {
+    "id": 2,
+    "wine": "Barolo Riserva 2018",
+    "winery": "Giuseppe Mascarello",
+    "image": "/wine-bottles/w-2.avif",
+    "type": "Red Wine",
+    "region": "Piedmont, Italy",
+    "price": 289.99
+  },
+  {
+    "id": 3,
+    "wine": "Cabernet Sauvignon Reserve",
+    "winery": "Napa Valley Cellars",
+    "image": "/wine-bottles/w-5.avif",
+    "type": "Red Wine",
+    "region": "California, USA",
+    "price": 149.99
+  },
+  {
+    "id": 4,
+    "wine": "Pinot Noir Grand Cru",
+    "winery": "Domaine de la Côte",
+    "image": "/wine-bottles/w-4.avif",
+    "type": "Red Wine",
+    "region": "Burgundy, France",
+    "price": 199.99
+  },
+  {
+    "id": 5,
+    "wine": "Amarone della Valpolicella",
+    "winery": "Zenato",
+    "image": "/wine-bottles/w-10.webp",
+    "type": "Red Wine",
+    "region": "Veneto, Italy",
+    "price": 129.99
+  },
+  {
+    "id": 6,
+    "wine": "Malbec Reserva Especial",
+    "winery": "Catena Zapata",
+    "image": "/wine-bottles/w-3.avif",
+    "type": "Red Wine",
+    "region": "Mendoza, Argentina",
+    "price": 89.99
+  },
+  {
+    "id": 7,
+    "wine": "Tempranillo Gran Reserva",
+    "winery": "Marqués de Riscal",
+    "image": "/wine-bottles/w-8.avif",
+    "type": "Red Wine",
+    "region": "Rioja, Spain",
+    "price": 119.99
+  },
+  {
+    "id": 8,
+    "wine": "Shiraz Reserve",
+    "winery": "Penfolds",
+    "image": "/wine-bottles/w-middle.avif",
+    "type": "Red Wine",
+    "region": "Barossa Valley, Australia",
+    "price": 169.99
+  },
+  {
+    "id": 9,
+    "wine": "Elegance Rosé Collection",
+    "winery": "Château Belle Vue",
+    "image": "/wine-bottles/beauty.webp",
+    "type": "Rosé Wine",
+    "region": "Provence, France",
+    "price": 79.99
+  }
+]
